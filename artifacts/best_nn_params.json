@@ -1,0 +1,1 @@
+{"model__optimizer": "adam", "model__neurons": 64, "model__learning_rate": 0.001, "model__input_shape": 63, "model__activation": "tanh", "epochs": 15, "batch_size": 64}

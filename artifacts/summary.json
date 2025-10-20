@@ -1,0 +1,62 @@
+{
+  "baseline_dt": {
+    "accuracy": 0.8816460305899491,
+    "precision": 0.47797563261480785,
+    "recall": 0.5495689655172413,
+    "f1": 0.5112781954887218,
+    "roc_auc": 0.7366859875465823,
+    "train_time_s": 0.6025090217590332
+  },
+  "neural_network": {
+    "metrics": {
+      "accuracy": 0.8907501820830298,
+      "precision": 0.5092348284960422,
+      "recall": 0.8318965517241379,
+      "f1": 0.6317512274959084,
+      "roc_auc": 0.9408430232558139
+    },
+    "cv_score": 0.9176756276079076,
+    "best_info": {
+      "model__optimizer": "adam",
+      "model__neurons": 64,
+      "model__learning_rate": 0.001,
+      "model__input_shape": 63,
+      "model__activation": "tanh",
+      "epochs": 15,
+      "batch_size": 64
+    }
+  },
+  "random_forest": {
+    "metrics": {
+      "accuracy": 0.9147851420247632,
+      "precision": 0.6374695863746959,
+      "recall": 0.5646551724137931,
+      "f1": 0.5988571428571429,
+      "roc_auc": 0.9447316943016179
+    },
+    "cv_score": 0.9947398069467791,
+    "best_params": {
+      "n_estimators": 200,
+      "min_samples_split": 2,
+      "max_features": "log2",
+      "max_depth": null
+    }
+  },
+  "xgboost": {
+    "metrics": {
+      "accuracy": 0.922068463219228,
+      "precision": 0.6588888888888889,
+      "recall": 0.6390086206896551,
+      "f1": 0.6487964989059081,
+      "roc_auc": 0.9532682850606161
+    },
+    "cv_score": 0.9932252325946368,
+    "best_params": {
+      "subsample": 0.8,
+      "n_estimators": 200,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "colsample_bytree": 1.0
+    }
+  }
+}

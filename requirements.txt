@@ -1,0 +1,21 @@
+# Prefect
+prefect>=2.12.0
+
+# Data handling
+numpy>=1.25.0
+pandas>=2.1.0
+
+# Scikit-learn and related
+scikit-learn>=1.3.0
+scikeras>=0.11.0
+imblearn>=0.10.0
+
+# XGBoost
+xgboost>=1.7.6
+
+# TensorFlow / Keras
+tensorflow>=2.15.0
+
+# Utilities
+tqdm>=4.66.0
+joblib>=1.3.2

@@ -1,0 +1,19 @@
+# Ignorar el entorno virtual
+venv/
+.venv/
+
+venv_bank/
+.venv_bank/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+
+# Ignorar todos los archivos dentro de artifacts
+artifacts/*
+
+# Pero permitir los JSON
+!artifacts/*.json
+
+# Ignorar modelos serializados
+*.joblib
+*.h5
