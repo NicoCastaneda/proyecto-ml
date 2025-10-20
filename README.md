@@ -1,9 +1,9 @@
 
-# 📊 Bank Marketing – Flujo Orquestado con Prefect
+# Bank Marketing – Flujo Orquestado con Prefect
 
 Este proyecto implementa un flujo completo de Machine Learning para predecir si un cliente aceptará una oferta bancaria, usando **Prefect 2.0** para la orquestación y monitoreo del pipeline.
 
-## ✅ ¿Qué hace el pipeline?
+## ¿Qué hace el pipeline?
 
 El flujo principal (`main_flow`) realiza automáticamente:
 
@@ -23,7 +23,7 @@ El flujo principal (`main_flow`) realiza automáticamente:
 
 ---
 
-## 🚀 Cómo ejecutarlo
+## Cómo ejecutarlo
 
 ### 1. Clonar el repositorio y entrar a la carpeta
 git clone https://github.com/NicoCastaneda/proyecto-ml.git
