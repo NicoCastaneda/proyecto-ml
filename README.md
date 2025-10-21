@@ -4,7 +4,7 @@
 Este proyecto implementa un flujo completo de Machine Learning para predecir si un cliente aceptará una oferta bancaria, usando **Prefect 2.0** para la orquestación y monitoreo del pipeline.
 
 ## Integrantes
-- Nico Castañeda
+- Nicolás Castañeda
 - Alejandro Gómez
 - Caren Piñeros
 
